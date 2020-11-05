@@ -2,13 +2,13 @@
 
 #### 一、创建高德账号，申请key  
 1. 登陆高德地图的官网，进行登录，如果没有账号的话，就注册账号  
-<img src="./src/assets/map_register.png">
+![账号注册](https://upload-images.jianshu.io/upload_images/9021170-4ec8d5ed2a5c7e80?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 2. 注册之后，点击控制台进入，进去之后，我们点击应用管理 -> 我的应用 -> 创建应用
-<img src="./src/assets/create_map_app.png" >  
+![创建应用](https://upload-images.jianshu.io/upload_images/9021170-62174bf260c5b416?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 3. 点击添加，增加key
-<img src="./src/assets/map_add.png" >
+![创建应用](https://upload-images.jianshu.io/upload_images/9021170-1c7f3feb462da578?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 二、高德地图在vue项目中引入
 1. 采用异步加载方式，项目中 utils 目录下创建 loadAMap.js
@@ -183,8 +183,7 @@ methods:{
   ......
  }
  ```
- <img src="./src/assets/poi_search.png">
-
+![实例展示](https://upload-images.jianshu.io/upload_images/9021170-6c5e0c5b4c59550d?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 参考文章
 1. [高德地图自定义消息窗体](https://blog.csdn.net/as849167276/article/details/108708746)
 2. [高德官网](https://lbs.amap.com/api/javascript-api/summary)
