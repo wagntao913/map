@@ -2,13 +2,13 @@
 
 #### 一、创建高德账号，申请key  
 1. 登陆高德地图的官网，进行登录，如果没有账号的话，就注册账号  
-<img src="https://persongitbook.oss-cn-beijing.aliyuncs.com/map_register.png">
+<img src="./src/assets/map_register.png">
 
 2. 注册之后，点击控制台进入，进去之后，我们点击应用管理 -> 我的应用 -> 创建应用
-<img src="https://persongitbook.oss-cn-beijing.aliyuncs.com/create_map_app.png" >  
+<img src="./src/assets/create_map_app.png" >  
 
 3. 点击添加，增加key
-<img src="https://persongitbook.oss-cn-beijing.aliyuncs.com/map_add.png" >
+<img src="./src/assets/map_add.png" >
 
 #### 二、高德地图在vue项目中引入
 1. 采用异步加载方式，项目中 utils 目录下创建 loadAMap.js
@@ -183,7 +183,7 @@ methods:{
   ......
  }
  ```
- <img src="https://persongitbook.oss-cn-beijing.aliyuncs.com/poi_search.png">
+ <img src="./src/assets/poi_search.png">
 
 参考文章
 1. [高德地图自定义消息窗体](https://blog.csdn.net/as849167276/article/details/108708746)
